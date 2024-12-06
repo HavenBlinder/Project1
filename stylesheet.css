@@ -1,0 +1,63 @@
+h1 {
+    color: brown;
+    font-family: Smilewhite;
+    text-align: center;
+    font-size: 500%;
+}
+h2 {
+    color:darkred;
+    font-family: PlayfairDisplay;
+    text-align: center;
+    font-size: 200%;
+}
+p {
+    color: rgb(91, 0, 0);
+    font-family: PlayfairDisplay;
+    text-align: center;
+    font-size: 100%;
+}
+h3 {
+    color: rgb(255, 0, 0);
+    font-family: PlayfairDisplay;
+    text-align: center;
+    font-size: 150%;
+}
+h4 {
+    color: rgb(91, 0, 0);
+    font-family: PlayfairDisplay;
+    text-align: left;
+    font-size: 100%;
+}
+h5 {
+    color:rgb(164, 45, 45);
+    font-family: PlayfairDisplay;
+    text-align: center;
+    font-size: 150%;
+}
+h6 {
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50%;
+}
+header {
+    color:rgb(164, 45, 45);
+    font-family: PlayfairDisplay;
+    text-align: center;
+    font-size: 150%;
+}
+html {
+    background: url(pictures/daisywallpaper.JPEG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "Smilewhite";
+    src: url(fonts/Smilewhite.ttf);
+}
