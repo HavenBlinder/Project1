@@ -1,5 +1,5 @@
 Haven Blinder
-This project is a moc website for a small coffee shop in downtown Franklin!
+This project is a mock website for a small coffee shop in downtown Franklin!
 The site provides:  1. Details on the current menu, with pictures
                     2. A mock online ordering form, with an order confirmation page
                     3. A page to apply for a job as a barista
@@ -10,3 +10,4 @@ Five ways I could improve this site are:
                     3. More realistic fields for the mock job application
                     4. More interactive photos and buttons
                     5. More realistically sized menu
+                    6. Interior pictures of the mock coffee shop

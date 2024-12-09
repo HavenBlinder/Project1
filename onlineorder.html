@@ -1,4 +1,5 @@
-<html>
+<html
+lang="english">
     <head>
         <title>Online Order</title>
         <link rel="stylesheet" href="stylesheet.css">
@@ -6,52 +7,40 @@
     <body>
         <h1>Online Ordering</h1>
         <h2>Hey, fellow coffee lover! Thank you for supporting our small business!</h2>
-        <header>Just so you know, our only availablepayment method for online ordering is paying in-store.</header>
-        <header>Our site is under construction, and we apologize for any inconvenience!</header>
-        <form>
-            <div>
+        <h5>Just so you know, our only availablepayment method for online ordering is paying in-store.</h5>
+        <h5>Our site is under construction, and we apologize for any inconvenience!</h5>
+        <form
+        action="orderconfirmation.html">
                 <h5><label for="fname">First name</label>
-                <input type="text" id="fname" name="fname" /></h5>
-            </div>
-            <div>
+                <input required type="text" id="fname" name="fname"></h5>
                 <h5><label for="lname">Last name</label>
-                <input type="text" id="lname" name="lname" /></h5>
-            </div>
-            <div>
+                <input required type="text" id="lname" name="lname"></h5>
                 <h5><label for="email">Email</label>
-                <input type="email" id="email" name="email" /></h5>
-            </div>
-            <div>
+                <input required type="email" id="email" name="email"></h5>
                 <h5><label for="phonenumber">Phone Number</label>
-                <input type="number" id="phonenumber" name="phonenumber" /></h5>
-        </div>
-    </form>
-                </div>
-        <header>Here are our current available options:</header>
+                <input required type="number" id="phonenumber" name="phonenumber"></h5>
+        <h5>Here are our current available options:</h5>
         <p>Caramel Hot Chocolate     //     $4.00 USD</p>
         <p>Gingerbread Iced Latte     //     $5.50 USD</p>
         <p>Peppermint Mocha     //     $5.00 USD</p>
         <p>Candy Cane Brownies (1pc/2pc/3pc)     //     $1.50/$3.00/$4.00 USD</p>
         <p>Peanut Butter Cookies (2pc/4pc/8pc)     //     $2.50/$5.00/$6.00 USD</p>
         <p>Gingerbread Loaf (1pc/Loaf)     //     $1.00/$10.00 USD</p>
-        <header>Please indicate which items you would like to order, and how many each:</header>
-        <form>
-            <div>
+        <h5>Please indicate which items you would like to order, and how many each:</h5>
                 <h5><label for="CaramelHotChocolate">Caramel Hot Chocolate</label>
-                <input type="number" id="CaramelHotChocolate" name="CaramelHotChocolate" /></h5>
+                <input type="number" id="CaramelHotChocolate" name="CaramelHotChocolate"></h5>
                 <h5><label for="GingerbreadIcedLatte">Gingerbread Iced Latte</label>
-                <input type="number" id="GingerbreadIcedLatte" name="GingerbreadIcedLatte" /></h5>
+                <input type="number" id="GingerbreadIcedLatte" name="GingerbreadIcedLatte"></h5>
                 <h5><label for="PeppermintMocha">Peppermint Mocha</label>
-                <input type="number" id="PeppermintMocha" name="PeppermintMocha" /></h5>
+                <input type="number" id="PeppermintMocha" name="PeppermintMocha"></h5>
                 <h5><label for="CandyCaneBrownies">Candy Cane Brownie(s)</label>
-                <input type="number" id="CandyCaneBrownies" name="CandyCaneBrownies" /></h5>
+                <input type="number" id="CandyCaneBrownies" name="CandyCaneBrownies"></h5>
                 <h5><label for="PeanutButterCookies">Peanut Butter Cookies</label>
-                <input type="number" id="PeanutButterCookies" name="PeanutButterCookies" /></h5>
+                <input type="number" id="PeanutButterCookies" name="PeanutButterCookies"></h5>
                 <h5><label for="GingerbreadLoaf">Gingerbread Loaf</label>
-                <input type="number" id="GingerbreadLoaf" name="GingerbreadLoaf" /></h5>
-        </div>
-        <h6><input type="submit" id="submit"/></h6>
-    </form>
+                <input type="number" id="GingerbreadLoaf" name="GingerbreadLoaf"></h5>
+                <p><button type="submit">Submit</button></p>
+                </form>
         <h3><a href="orderconfirmation.html">I'm done!</a></h3>
         <h3><a href="page1.html">Back</a></h3>
     </body>
